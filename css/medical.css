@@ -27,8 +27,24 @@ p {
   margin: 0 auto;
 }
 
+.common-btn {
+  display: flex;
+  align-items: center;
+  padding: 15px 25px;
+  gap: 15px;
+  border-radius: 5px;
+  background-color: #fc724d;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+}
+
 #navbar {
   background: transparent;
+  padding: 34px 0;
 }
 #navbar .nav-wrapper {
   display: flex;
@@ -42,4 +58,40 @@ p {
   font-weight: 700;
   line-height: 32px;
   letter-spacing: 0.1px;
+}
+#navbar .nav-wrapper .nav-manu {
+  margin-left: -200px;
+}
+#navbar .nav-wrapper .nav-manu ul {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 21px;
+       column-gap: 21px;
+}
+#navbar .nav-wrapper .nav-manu ul li a {
+  color: #737373;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  transition: all linear 0.3s;
+  cursor: pointer;
+}
+#navbar .nav-wrapper .nav-manu ul li a:hover {
+  color: #252b42;
+}
+#navbar .nav-wrapper .nav-btn {
+  display: flex;
+  align-items: center;
+}
+#navbar .nav-wrapper .nav-btn .nav-login {
+  display: flex;
+  align-items: center;
+  color: #fc724d;
+  margin-right: 45px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.2px;
 }/*# sourceMappingURL=medical.css.map */

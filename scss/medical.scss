@@ -3,17 +3,53 @@
 // Nav bar Start
 #navbar {
   background: transparent;
+  padding: 34px 0;
   .nav-wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
     .nav-logo {
-      color: $primary-color;
+      color: $primary-text-color;
       font-size: 24px;
       text-transform: capitalize;
       font-weight: 700;
       line-height: 32px;
       letter-spacing: 0.1px;
+    }
+    .nav-manu {
+      margin-left: -200px;
+      ul {
+        display: flex;
+        align-items: center;
+        column-gap: 21px;
+        li a {
+          color: $text-color;
+          font-family: Montserrat;
+          font-size: 14px;
+          font-weight: 700;
+          line-height: 24px;
+          letter-spacing: 0.2px;
+          transition: all linear 0.3s;
+          cursor: pointer;
+          &:hover {
+            color: $primary-text-color;
+          }
+        }
+      }
+    }
+    .nav-btn {
+      display: flex;
+      align-items: center;
+      .nav-login {
+        display: flex;
+        align-items: center;
+        color: $secondery-text-color;
+        margin-right: 45px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 0.2px;
+      }
     }
   }
 }

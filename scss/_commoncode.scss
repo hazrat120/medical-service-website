@@ -1,6 +1,7 @@
-$primary-color: #252b42;
-$secondery-color: #fc724d;
-$p-color: #737373;
+$primary-text-color: #252b42;
+$secondery-text-color: #fc724d;
+$text-color: #737373;
+$light-text-color: #fff;
 
 * {
   margin: 0;
@@ -29,4 +30,19 @@ p {
 .container {
   width: 1000px;
   margin: 0 auto;
+}
+
+.common-btn {
+  display: flex;
+  align-items: center;
+  padding: 15px 25px;
+  gap: 15px;
+  border-radius: 5px;
+  background-color: $secondery-text-color;
+  color: $light-text-color;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
 }
