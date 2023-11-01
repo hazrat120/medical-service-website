@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#navbar {
+  background: transparent;
+}
+#navbar .nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#navbar .nav-wrapper .nav-logo {
+  color: #252b42;
+  font-size: 24px;
+  text-transform: capitalize;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+}/*# sourceMappingURL=medical.css.map */

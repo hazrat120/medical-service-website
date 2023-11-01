@@ -1,0 +1,19 @@
+@import "./commoncode";
+
+// Nav bar Start
+#navbar {
+  background: transparent;
+  .nav-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .nav-logo {
+      color: $primary-color;
+      font-size: 24px;
+      text-transform: capitalize;
+      font-weight: 700;
+      line-height: 32px;
+      letter-spacing: 0.1px;
+    }
+  }
+}
