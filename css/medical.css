@@ -320,4 +320,63 @@ p {
   position: absolute;
   left: 50%;
   transform: translate(-50%);
+}
+
+#leading {
+  background-color: #fff;
+  padding: 100px 0;
+}
+#leading .container .leading-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+#leading .container .leading-wrapper .leading-img-part {
+  width: 544px;
+  height: 599px;
+  position: relative;
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+}
+#leading .container .leading-wrapper .leading-img-part .lead-img-1 {
+  width: 116px;
+  display: flex;
+  align-self: flex-end;
+}
+#leading .container .leading-wrapper .leading-img-part .lead-img-2 {
+  position: absolute;
+  top: 20px;
+  right: 33px;
+  z-index: 2;
+}
+#leading .container .leading-wrapper .leading-img-part .lead-img-3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 3;
+}
+#leading .container .leading-wrapper .leading-text-part {
+  width: 381px;
+  display: flex;
+  flex-direction: column;
+}
+#leading .container .leading-wrapper .leading-text-part .line-2 {
+  width: 95px;
+  height: 7px;
+  margin-bottom: 35px;
+  background-color: #fc724d;
+  margin-top: 176px;
+  margin-bottom: 35px;
+}
+#leading .container .leading-wrapper .leading-text-part h3 {
+  width: 381px;
+  color: #252b42;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 35px;
 }/*# sourceMappingURL=medical.css.map */

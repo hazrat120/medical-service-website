@@ -1,6 +1,6 @@
 @import "./commoncode";
 
-// Nav bar Start
+// Nav bar Part
 #navbar {
   position: absolute;
   width: 100%;
@@ -76,6 +76,7 @@
   }
 }
 
+// Banner Part
 #banner {
   background-image: linear-gradient(
       90deg,
@@ -129,6 +130,7 @@
   }
 }
 
+// Service Part
 #service {
   padding: 112px 0;
   .service-wrapper {
@@ -216,8 +218,9 @@
   }
 }
 
+// Video part
 #video {
-  background-color: $light-text-color;
+  background-color: #fff;
   padding: 160px 0;
   .video-wrapper {
     display: flex;
@@ -268,6 +271,69 @@
         position: absolute;
         left: 50%;
         transform: translate(-50%);
+      }
+    }
+  }
+}
+
+// Leading Medican Part
+#leading {
+  background-color: #fff;
+  padding: 100px 0;
+  .container {
+    .leading-wrapper {
+      display: flex;
+      justify-content: space-between;
+      gap: 100px;
+      .leading-img-part {
+        width: 544px;
+        height: 599px;
+        position: relative;
+        display: flex;
+        gap: 50px;
+        flex-direction: column;
+        .lead-img-1 {
+          width: 116px;
+          display: flex;
+          align-self: flex-end;
+        }
+        .lead-img-2 {
+          position: absolute;
+          top: 20px;
+          right: 33px;
+          z-index: 2;
+        }
+        .lead-img-3 {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          z-index: 3;
+        }
+      }
+
+      .leading-text-part {
+        width: 381px;
+        display: flex;
+        flex-direction: column;
+        .line-2 {
+          width: 95px;
+          height: 7px;
+          margin-bottom: 35px;
+          background-color: $secondery-text-color;
+          margin-top: 176px;
+          margin-bottom: 35px;
+        }
+        h3 {
+          width: 381px;
+          color: $primary-text-color;
+          font-size: 40px;
+          font-weight: 700;
+          line-height: 50px;
+          letter-spacing: 0.2px;
+          display: flex;
+          flex-wrap: nowrap;
+          margin-bottom: 35px;
+        }
       }
     }
   }
