@@ -478,6 +478,86 @@
     }
   }
 }
+
+//Our Exparts
+#exparts {
+  padding: 100px 0;
+  .container {
+    .expart-wrapper {
+      display: flex;
+      flex-direction: column;
+      .expart-head-text {
+        width: 50%;
+        margin-bottom: 100px;
+        h3 {
+          color: $primary-text-color;
+          font-size: 40px;
+          font-weight: 700;
+          line-height: 50px;
+          letter-spacing: 0.2px;
+          margin: 10px 0;
+        }
+        p {
+          color: $text-color;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 20px;
+          letter-spacing: 0.2px;
+        }
+      }
+      .expart-info {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        .expart-1 {
+          width: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          img {
+            border-radius: 50%;
+            border: 2px solid $secondery-text-color;
+            margin-bottom: 30px;
+          }
+          .description {
+            color: $text-color;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0.2px;
+            margin-bottom: 15px;
+          }
+          .stars {
+            display: flex;
+            flex-direction: row;
+            gap: 5px;
+            color: $secondery-text-color;
+            margin-bottom: 15px;
+          }
+          h6 {
+            color: $primary-text-color;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 0.1px;
+            margin-bottom: 9px;
+          }
+          .job-name {
+            color: $text-color;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 0.2px;
+          }
+        }
+      }
+    }
+  }
+}
+
 // @media (max-width: 952px) {
 //   .nav-wrapper {
 //     .nav-logo {
