@@ -11,6 +11,7 @@ $light-text-color: #fff;
 
 body {
   font-family: "Montserrat", sans-serif;
+  background-color: $light-text-color;
 }
 
 ul,
@@ -37,6 +38,7 @@ p {
   align-items: center;
   padding: 15px 25px;
   gap: 15px;
+  border: 1px solid $secondery-text-color;
   border-radius: 5px;
   background-color: $secondery-text-color;
   color: $light-text-color;
@@ -45,4 +47,19 @@ p {
   line-height: 22px;
   letter-spacing: 0.2px;
   text-transform: uppercase;
+  transition: all linear 0.4s;
+  cursor: pointer;
+}
+.common-btn:hover {
+  background-color: $primary-text-color;
+  color: $light-text-color;
+  border: 1px solid $secondery-text-color;
+}
+
+.p-same {
+  color: $secondery-text-color;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0.1px;
 }

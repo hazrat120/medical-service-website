@@ -6,6 +6,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  background-color: #fff;
 }
 
 ul,
@@ -32,6 +33,7 @@ p {
   align-items: center;
   padding: 15px 25px;
   gap: 15px;
+  border: 1px solid #fc724d;
   border-radius: 5px;
   background-color: #fc724d;
   color: #fff;
@@ -40,36 +42,71 @@ p {
   line-height: 22px;
   letter-spacing: 0.2px;
   text-transform: uppercase;
+  transition: all linear 0.4s;
+  cursor: pointer;
+}
+
+.common-btn:hover {
+  background-color: #252b42;
+  color: #fff;
+  border: 1px solid #fc724d;
+}
+
+.p-same {
+  color: #fc724d;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0.1px;
 }
 
 #navbar {
+  position: absolute;
+  width: 100%;
   background: transparent;
   padding: 34px 0;
+  z-index: 55;
 }
-#navbar .nav-wrapper {
+#navbar .container .nav-icon {
+  float: inline-end;
+  font-size: 30px;
+  line-height: 55px;
+  align-items: center;
+  color: #fc724d;
+}
+#navbar .container .nav-icon #cheak {
+  display: none;
+}
+#navbar .container .nav-icon .cheakbtn {
+  cursor: pointer;
+  display: none;
+}
+#navbar .container .nav-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-#navbar .nav-wrapper .nav-logo {
+#navbar .container .nav-wrapper .nav-logo {
   color: #252b42;
   font-size: 24px;
   text-transform: capitalize;
   font-weight: 700;
   line-height: 32px;
   letter-spacing: 0.1px;
+  cursor: pointer;
 }
-#navbar .nav-wrapper .nav-manu {
+#navbar .container .nav-wrapper .nav-manu {
   margin-left: -200px;
 }
-#navbar .nav-wrapper .nav-manu ul {
+#navbar .container .nav-wrapper .nav-manu ul {
   display: flex;
   align-items: center;
   -moz-column-gap: 21px;
        column-gap: 21px;
 }
-#navbar .nav-wrapper .nav-manu ul li a {
+#navbar .container .nav-wrapper .nav-manu ul li a {
   color: #737373;
+  text-transform: capitalize;
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 700;
@@ -78,14 +115,14 @@ p {
   transition: all linear 0.3s;
   cursor: pointer;
 }
-#navbar .nav-wrapper .nav-manu ul li a:hover {
+#navbar .container .nav-wrapper .nav-manu ul li a:hover {
   color: #252b42;
 }
-#navbar .nav-wrapper .nav-btn {
+#navbar .container .nav-wrapper .nav-btn {
   display: flex;
   align-items: center;
 }
-#navbar .nav-wrapper .nav-btn .nav-login {
+#navbar .container .nav-wrapper .nav-btn .nav-login {
   display: flex;
   align-items: center;
   color: #fc724d;
@@ -94,4 +131,136 @@ p {
   font-weight: 700;
   line-height: 22px;
   letter-spacing: 0.2px;
+  cursor: pointer;
+}
+
+#banner {
+  background-image: linear-gradient(90deg, #fff 14.24%, #fff 14.25%, rgba(255, 255, 255, 0) 99.55%), url(/image/hero-3-cover\ sec-.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#banner .banner-wrapper {
+  padding-top: 275px;
+  padding-bottom: 112px;
+  display: flex;
+  flex-direction: column;
+}
+#banner .banner-wrapper h1 {
+  width: 561px;
+  height: 160px;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+}
+#banner .banner-wrapper .p-same {
+  margin-bottom: 35px;
+}
+#banner .banner-wrapper .p-text-banner {
+  color: #252b42;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  margin-bottom: 35px;
+}
+#banner .banner-wrapper .banner-btn {
+  display: flex;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+#banner .banner-wrapper .banner-2nd-btn {
+  background: transparent;
+  color: #fc724d;
+}
+#banner .banner-wrapper .banner-2nd-btn:hover {
+  background-color: #fc724d;
+  color: #252b42;
+}
+
+#service {
+  padding: 112px 0;
+}
+#service .service-wrapper .service-items-text .p-same {
+  margin-bottom: 10px;
+}
+#service .service-wrapper .service-items-text h4 {
+  color: #252b42;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  margin-bottom: 10px;
+}
+#service .service-wrapper .service-items-text .servi-text {
+  width: 470px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  margin-bottom: 112px;
+}
+#service .service-wrapper .service-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+}
+#service .service-wrapper .service-card .service-cards {
+  box-shadow: 0px 0px 37px 5px rgba(0, 0, 0, 0.1);
+  width: 238px;
+  padding: 35px 40px;
+  border-radius: 5px;
+}
+#service .service-wrapper .service-card .service-cards img {
+  width: 70px;
+  margin-bottom: 20px;
+}
+#service .service-wrapper .service-card .service-cards h5 {
+  color: #252b42;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  margin-bottom: 40px;
+  position: relative;
+}
+#service .service-wrapper .service-card .service-cards h5::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  background-color: #fc724d;
+  left: 0;
+  bottom: -20px;
+}
+#service .service-wrapper .service-card .service-cards .card-para {
+  width: 132px;
+  color: #737373;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+#service .service-wrapper .service-card .service-cards-3rd {
+  background-color: #fc724d;
+  width: 257px;
+}
+#service .service-wrapper .service-card .service-cards-3rd h5,
+#service .service-wrapper .service-card .service-cards-3rd p {
+  color: #fff !important;
+}
+#service .service-wrapper .service-card .service-cards-3rd .single-line {
+  position: relative;
+}
+#service .service-wrapper .service-card .service-cards-3rd .single-line::after {
+  position: absolute;
+  content: "";
+  color: #fff !important;
+  width: 50px;
+  height: 2px;
+  left: 0;
+  bottom: 0;
 }/*# sourceMappingURL=medical.css.map */
