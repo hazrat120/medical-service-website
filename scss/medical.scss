@@ -216,14 +216,14 @@
   }
 }
 
-#doctor {
+#video {
   background-color: $light-text-color;
   padding: 160px 0;
-  .doctor-wrapper {
+  .video-wrapper {
     display: flex;
     justify-content: space-between;
     gap: 30px;
-    .doctor-text-part {
+    .video-text-part {
       display: flex;
       flex-direction: column;
       .line {
@@ -242,7 +242,7 @@
         letter-spacing: 0.2px;
         margin-bottom: 35px;
       }
-      .doctor-descr {
+      .video-descr {
         width: 351px;
         color: $primary-text-color;
         font-size: 14px;

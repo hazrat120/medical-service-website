@@ -265,27 +265,27 @@ p {
   bottom: 0;
 }
 
-#doctor {
+#video {
   background-color: #fff;
   padding: 160px 0;
 }
-#doctor .doctor-wrapper {
+#video .video-wrapper {
   display: flex;
   justify-content: space-between;
   gap: 30px;
 }
-#doctor .doctor-wrapper .doctor-text-part {
+#video .video-wrapper .video-text-part {
   display: flex;
   flex-direction: column;
 }
-#doctor .doctor-wrapper .doctor-text-part .line {
+#video .video-wrapper .video-text-part .line {
   width: 95px;
   height: 7px;
   margin-top: 33px;
   margin-bottom: 35px;
   background-color: #fc724d;
 }
-#doctor .doctor-wrapper .doctor-text-part h3 {
+#video .video-wrapper .video-text-part h3 {
   width: 353px;
   color: #252b42;
   font-size: 40px;
@@ -294,7 +294,7 @@ p {
   letter-spacing: 0.2px;
   margin-bottom: 35px;
 }
-#doctor .doctor-wrapper .doctor-text-part .doctor-descr {
+#video .video-wrapper .video-text-part .video-descr {
   width: 351px;
   color: #252b42;
   font-size: 14px;
@@ -303,20 +303,20 @@ p {
   letter-spacing: 0.2px;
   margin-bottom: 35px;
 }
-#doctor .doctor-wrapper .doctor-text-part .dc-about {
+#video .video-wrapper .video-text-part .dc-about {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-#doctor .doctor-wrapper .doctor-video {
+#video .video-wrapper .doctor-video {
   position: relative;
   display: flex;
   align-items: center;
 }
-#doctor .doctor-wrapper .doctor-video .doc-vid-1 {
+#video .video-wrapper .doctor-video .doc-vid-1 {
   border-radius: 10px;
 }
-#doctor .doctor-wrapper .doctor-video .doc-vid-2 {
+#video .video-wrapper .doctor-video .doc-vid-2 {
   position: absolute;
   left: 50%;
   transform: translate(-50%);
