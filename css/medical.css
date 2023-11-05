@@ -590,4 +590,137 @@ p {
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.2px;
+}
+
+#team {
+  padding: 100px 0;
+}
+#team .container .team-wrapper .team-head-text {
+  width: 50%;
+  margin-bottom: 80px;
+}
+#team .container .team-wrapper .team-head-text h3 {
+  color: #252b42;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  margin: 10px 0;
+}
+#team .container .team-wrapper .team-head-text .team-about {
+  width: 469px;
+  color: #737373;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+#team .container .team-wrapper .team-items {
+  display: flex;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+#team .container .team-wrapper .team-items .team-parson {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: -3px 2px 21px -6px rgb(66, 68, 90);
+}
+#team .container .team-wrapper .team-items .team-parson img {
+  border-radius: 20px 20px 0 0;
+  margin-bottom: 30px;
+}
+#team .container .team-wrapper .team-items .team-parson h4 {
+  color: #252b42;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  margin-bottom: 10px;
+}
+#team .container .team-wrapper .team-items .team-parson p {
+  color: #737373;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  margin-bottom: 10px;
+}
+#team .container .team-wrapper .team-items .team-parson .tem-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+#team .container .team-wrapper .team-items .team-parson .tem-social i {
+  font-size: 20px;
+  color: #fc724d;
+}
+
+#joinus {
+  padding: 100px 0;
+}
+#joinus .container .joinus-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#joinus .container .joinus-wrapper .joinus-head-txt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+#joinus .container .joinus-wrapper .joinus-head-txt h2 {
+  margin: 10px 0;
+  color: #252b42;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+}
+#joinus .container .joinus-wrapper .joinus-head-txt .join-about {
+  width: 469px;
+  color: #737373;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+#joinus .container .joinus-wrapper .search-container {
+  width: 50%;
+}
+#joinus .container .joinus-wrapper .search-container form {
+  position: relative;
+  width: 100%;
+}
+#joinus .container .joinus-wrapper .search-container form input {
+  width: 100%;
+  height: 58px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: #f0f0f0;
+}
+#joinus .container .joinus-wrapper .search-container form input:hover {
+  border: none;
+}
+#joinus .container .joinus-wrapper .search-container form button {
+  position: absolute;
+  width: 20%;
+  border: none;
+  font-size: 16px;
+  height: 58px;
+  top: 0;
+  right: 0;
+  border-radius: 10px;
+  background-color: #fc724d;
+  color: #fff;
 }/*# sourceMappingURL=medical.css.map */
