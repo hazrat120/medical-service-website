@@ -723,4 +723,38 @@ p {
   border-radius: 10px;
   background-color: #fc724d;
   color: #fff;
+}
+
+#footer {
+  padding: 100px 0;
+}
+#footer .container .footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+#footer .container .footer-wrapper .footer-items h4 {
+  color: #252b42;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  margin-bottom: 20px;
+}
+#footer .container .footer-wrapper .footer-items p {
+  color: #737373;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  margin-bottom: 10px;
+}
+#footer .container .footer-wrapper .footer-items .fo-social-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#footer .container .footer-wrapper .footer-items .fo-social-1 i {
+  margin-right: 10px;
+  font-size: 20px;
+  color: #fc724d;
 }/*# sourceMappingURL=medical.css.map */
