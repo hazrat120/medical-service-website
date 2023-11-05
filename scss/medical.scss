@@ -739,6 +739,36 @@
   }
 }
 
+// Copyright Part
+#copyright {
+  padding: 25px 0;
+  .container {
+    .copyright-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .copy-txt {
+        p {
+          color: $text-color;
+          font-size: 14px;
+          font-weight: 700;
+          line-height: 24px;
+          letter-spacing: 0.2px;
+        }
+      }
+      .copy-mediya {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        i {
+          font-size: 22px;
+          color: $secondery-text-color;
+        }
+      }
+    }
+  }
+}
+
 // @media (max-width: 952px) {
 //   .nav-wrapper {
 //     .nav-logo {

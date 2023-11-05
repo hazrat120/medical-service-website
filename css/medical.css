@@ -757,4 +757,29 @@ p {
   margin-right: 10px;
   font-size: 20px;
   color: #fc724d;
+}
+
+#copyright {
+  padding: 25px 0;
+}
+#copyright .container .copyright-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#copyright .container .copyright-wrapper .copy-txt p {
+  color: #737373;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+#copyright .container .copyright-wrapper .copy-mediya {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#copyright .container .copyright-wrapper .copy-mediya i {
+  font-size: 22px;
+  color: #fc724d;
 }/*# sourceMappingURL=medical.css.map */
